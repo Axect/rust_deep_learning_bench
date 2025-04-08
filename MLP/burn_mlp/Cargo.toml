@@ -1,0 +1,7 @@
+[package]
+name = "burn_mlp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+burn = { version = "0.16.1", features = ["train", "wgpu"] }

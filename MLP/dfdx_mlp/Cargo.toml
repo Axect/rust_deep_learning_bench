@@ -1,0 +1,9 @@
+[package]
+name = "dfdx_mlp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dfdx = { version = "0.13.0", features = ["cuda", "cudnn"] }
+indicatif = "0.17.11"
+peroxide = "0.39.3"
